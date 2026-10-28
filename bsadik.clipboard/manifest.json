@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "bsadik.clipboard",
+  "name": "Clipboard",
+  "version": "1.1.0",
+  "author": "bsadik",
+  "description": "Themed clipboard history for text and images, with pins and filters",
+  "kinds": [
+    "overlay",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Clipboard.qml",
+    "barWidget": "ClipboardBarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Clipboard",
+    "description": "Opens the clipboard history",
+    "category": "System",
+    "allowMultiple": false
+  }
+}
